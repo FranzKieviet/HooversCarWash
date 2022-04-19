@@ -40,11 +40,40 @@ body {
   z-index: 3;
   min-height: 900px;
 }
+.container-image {
+  position: relative;
+}
+
+.container-image:hover .overlay {
+  opacity: 0.95;
+}
+
+.overlay{
+  position: absolute;
+  top:0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #303232;
+}
+
+.price{
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 .service-box{
   color: #fff;
   border: 3px solid #fff;
-  padding: .5em 3em;
+  padding: .5em 1em;
   background-color: rgba(0,0,0,.2);
   z-index: 10;
   height: 400px;
@@ -72,7 +101,6 @@ body {
 /*ABOUT US*/
 .aboutus-container{
   margin: 15px;
-  
   
 }
 .aboutusBody{
@@ -200,18 +228,7 @@ li.active > a.nav-button {
   width: 100%;
   height: 100%;
 } 
-hgroup{
-  display: inline-block;
-  text-align: center;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  color: #fff;
-  border: 5px solid #fff;
-  padding: .5em 3em;
-  background-color: rgba(0,0,0,.2);
-  z-index: 2;
-}
+
 .row {
   width: 80%;
   padding-left: 10%;
