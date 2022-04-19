@@ -4,31 +4,38 @@ body {
   padding: 0;
   margin: 0;
   perspective: 1px;
-  height: 100%;
+  height: auto;
   overflow-x: hidden;
   font-family: 'Roboto';
 }
-.home-banner {
+.banner-container {
   position: relative;
   text-align: center;
-  color: rgb(0, 0, 0);
-  top: 100px;
-  font-size: '100px';
+  color: 38b6ff;
+  margin-top: 15px;
 }
 
 .box{
   width: 100%;
-  height: 100%;
+  height: 90%;
   object-fit: fill;
 }
 /*Text for ontop left */
-.top-left {
+.top-right {
   position: absolute;
   font-family:'Trebuchet MS';
-  top: 18px;
-  left: 16px;
+  top: 80px;
+  right: 16px;
 }
 
+.services{
+  background-color: #57585b;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  padding: .8em 8em;
+  z-index: 3;
+}
 
 .left-underline {
   display: inline-block;
@@ -68,7 +75,7 @@ body {
   right: 0;
 }
 div.navbar {
-  position: fixed;
+  position: sticky;
   left: 0;
   top: 0;
   width: 100%;
@@ -122,14 +129,11 @@ li.active > a.nav-button {
   padding: 0;
 }
 .parallax.p1 {
-  background: url(http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-70374.jpg) no-repeat fixed 50% 0;
   background-size: cover;
-  color: #fff;
+  color: rgb(213, 19, 19);
 }
 .parallax.p2 {
-  background: url(http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-126549.jpg) no-repeat fixed 50% 0;
-  background-size: cover;
-  color: #fff;
+  color: rgb(215, 0, 0);
 }
 .parallax.p3 {
   background: url(http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-95766.jpg) no-repeat fixed 70% 0;
@@ -141,7 +145,7 @@ li.active > a.nav-button {
   position: fixed;
   top: 20%;
   left: 50%;
-  border: .5em solid #fff;
+  border: .5em solid rgb(156, 58, 58);
   margin-left: -10%;
   padding: 2em 0;
   text-align: center;
