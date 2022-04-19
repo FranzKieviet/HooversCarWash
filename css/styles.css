@@ -5,14 +5,17 @@ body {
   margin: 0;
   perspective: 1px;
   height: auto;
+  width: auto;
   overflow-x: hidden;
   font-family: 'Roboto';
 }
+
+/*BANNER*/
 .banner-container {
   position: relative;
   text-align: center;
   color: 38b6ff;
-  margin-top: 15px;
+  margin: 15px;
 }
 
 .box{
@@ -20,7 +23,7 @@ body {
   height: 90%;
   object-fit: fill;
 }
-/*Text for ontop left */
+
 .top-right {
   position: absolute;
   font-family:'Trebuchet MS';
@@ -28,15 +31,45 @@ body {
   right: 16px;
 }
 
-.services{
+/*SERVICES BANNER*/
+.services-container{
   background-color: #57585b;
-  display: inline-block;
-  text-align: center;
+  width: 100%;
   color: #fff;
   padding: .8em 8em;
   z-index: 3;
+  min-height: 900px;
 }
 
+.service-box{
+  color: #fff;
+  border: 3px solid #fff;
+  padding: .5em 3em;
+  background-color: rgba(0,0,0,.2);
+  z-index: 10;
+  height: 400px;
+}
+.service-image{
+  padding: 0%;
+  margin: auto;
+  width: 100%;
+  object-fit: contain;
+}
+.row-1-service {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.row-1-service > .col-3-service {
+  width: 25%;
+  height: 100%;
+  float:left;
+  padding-right: 10px;
+}
+
+/*NAV BAR*/
 .left-underline {
   display: inline-block;
   vertical-align: middle;
