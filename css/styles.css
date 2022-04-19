@@ -24,12 +24,70 @@ body {
   object-fit: fill;
 }
 
+.top-right-title {
+  position: absolute;
+  font-family:'Trebuchet MS';
+  top: 60px;
+  right: 16px;
+}
+
 .top-right {
   position: absolute;
   font-family:'Trebuchet MS';
   top: 80px;
   right: 16px;
 }
+/*Service Buttons from Banner: */
+.banner-container img {
+  position: relative;
+}
+/*THE CODE BELOW IS NOT WELL DONE- ran out of time*/
+
+.banner-container .button-circle-window {
+  position: absolute;
+  left: 55%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #38b6ff;
+  text-decoration: none; 
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.banner-container .button-circle-tire {
+  position: absolute;
+  left: 60%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #38b6ff;
+  text-decoration: none; 
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.banner-container .button-circle-wax {
+  position: absolute;
+  left: 80%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #38b6ff;
+  text-decoration: none; 
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
 
 /*SERVICES BANNER*/
 .services-container{
