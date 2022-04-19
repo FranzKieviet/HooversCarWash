@@ -96,10 +96,25 @@ body {
   position: relative;
   overflow: hidden;
 }
+.nav-name{
+  font-weight: 300;
+  color:#ECECEC;
+  font-size: 50px;
+  
+  margin-left: 100px;
+}
+.nav-address{
+  font-weight: 300;
+  color:#ECECEC;
+  font-size: 10px;
+  
+  margin-left: 100px;
+}
 
 .logo-span{
   display: inline-block;
   vertical-align: top;
+  margin-top: 15px;
   height: 0px;
   width: 60px;
 }
@@ -127,6 +142,7 @@ div.navbar {
   position: sticky;
   left: 0;
   top: 0;
+  height: 115px;
   width: 100%;
   background: #074796;
   -webkit-box-shadow: 0px 2px 6px 0px rgba(50, 50, 50, 0.75);
@@ -155,7 +171,7 @@ div.navbar > ul > li:hover {
 a.nav-button {
   font-family: 'Roboto';
   text-decoration: none;
-  line-height: 60px;
+  line-height: 20px;
   padding-left: 20px;
   padding-right: 20px;
   color: rgba(228, 241, 254, 1);
@@ -178,22 +194,7 @@ li.active > a.nav-button {
   padding: 0;
 }
 
-.parallax.p3 {
-  background: url(http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-95766.jpg) no-repeat fixed 70% 0;
-  background-size: cover;
-  color: #fff;
-}
-.parallax-text {
-  width: 24em;
-  position: fixed;
-  top: 20%;
-  left: 50%;
-  border: .5em solid rgb(156, 58, 58);
-  margin-left: -10%;
-  padding: 2em 0;
-  text-align: center;
-  z-index: 999;
-}
+
 .parallax > div.blur-image {
   position: relative;
   width: 100%;
